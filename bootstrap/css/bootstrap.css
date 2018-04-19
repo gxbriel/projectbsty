@@ -3522,7 +3522,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 50%;
   left: 0;
   z-index: 1000;
   display: none;
@@ -5932,6 +5932,7 @@ button.close {
   border: 0;
   -webkit-appearance: none;
 }
+.modal {outline: 0 !important}
 
 .modal-open {
   overflow: hidden;
@@ -5950,13 +5951,13 @@ button.close {
 }
 
 .modal.fade .modal-dialog {
-  -webkit-transform: translate(0, -25%);
+  /*-webkit-transform: translate(0, -25%);
       -ms-transform: translate(0, -25%);
           transform: translate(0, -25%);
   -webkit-transition: -webkit-transform 0.3s ease-out;
      -moz-transition: -moz-transform 0.3s ease-out;
        -o-transition: -o-transform 0.3s ease-out;
-          transition: transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;*/
 }
 
 .modal.in .modal-dialog {
