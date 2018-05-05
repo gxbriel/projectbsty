@@ -1270,3 +1270,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background: #FF001A;
   border: 2px solid #FF001A;
 }
+
+    @media only screen and (max-width: 641px){
+    .section {
+        min-height: auto;
+        width: 360px;
+        overflow: visible;
+    }
+}
