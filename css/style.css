@@ -1040,7 +1040,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about22 {
-  background: #fff right;
+  background: #a71736 right;
   padding: 80px 0;
 }
 
@@ -1140,7 +1140,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background:  url(../img/cover.jpg) fixed center center;
+  background: #a71736;
   background-size: cover;
   padding: 80px 0;
 }
@@ -1228,19 +1228,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /* Call To Action Section
 --------------------------------*/
 #call-to-action22 {
-  background:  url(../img/parallax-bg.jpg) fixed center center;
+  background: #fff;
   background-size: cover;
   padding: 80px 0;
 }
 
 #call-to-action22 .cta-title {
-  color: #fff;
+  color: #000000;
   font-size: 28px;
   font-weight: 700;
 }
 
 #call-to-action22 .cta-text {
-  color: #fff;
+  color: #000000;
 }
 
 @media (min-width: 769px) {
@@ -1262,11 +1262,53 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
+  border: 2px solid #a71736;
+  color: #a71736;
+}
+
+
+/* Call To Action Section
+--------------------------------*/
+#call-to-action33 {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#call-to-action33 .cta-title {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action33 .cta-text {
+  color: #000000;
+}
+
+@media (min-width: 769px) {
+  #call-to-action33 .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#call-to-action33 .cta-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
   border: 2px solid #fff;
   color: #fff;
 }
 
-#call-to-action22 .cta-btn:hover {
+#call-to-action33 .cta-btn:hover {
   background: #FF001A;
   border: 2px solid #FF001A;
 }
