@@ -23,6 +23,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
+<script type="text/javascript">
+$(window).load(function() {
+    $(".loader").fadeOut("slow");
+});
+</script>
 
   </head>
 
@@ -48,7 +53,10 @@
               <a class="nav-link js-scroll-trigger" href="roadmap.html">Roadmap</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+              <a class="nav-link js-scroll-trigger" href="#section1">Features</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="roadmap.html">Roadmap</a>
             </li>
             
           </ul>
@@ -89,7 +97,48 @@ We want Argentum to be a long-term stable investment. We will strive to provide 
       </div>
     </section>
 
-    
+<!-- Why Choose us
+======================================-->
+  <div id="section1" class="choose-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <img src="img/Comp-2.gif" alt="" class="choose-img img-fluid">
+        </div>
+        <div class="col-lg-5 ">
+          <div class="choose-wrapper">
+            <div class="choose-inner">
+              <div class="choose-text">
+                <h3>Features style 2</h3>
+                <p><b>Features:</b> Argentum uses six cryptographic algorithms;
+Scrypt with AUXPOW support (Merged Mining)
+SHA256D with AUXPOW support (Merged Mining)
+Lyra2REv2 (GPU)
+Myriad-Groestl (GPU/ASIC)
+Argon2d (CPU)
+Yescrypt (CPU/GPU)
+Max block size 10mb
+3 ARG per block
+ <p><b>Production:</b>Production: Blocks are discovered every 45 seconds and transactions are fully confirmed every 4.5 minutes. 64 Million total Argentums will be mined. Once this limit is reached, it is increased by 1.1% annually, the rate of human population growth.
+ <p><b>Security:</b>Security: Mined blocks mature after 100 confirmations</br>
+                  
+                <a href="#" class="btn btn-light">core features</a>
+              </div>
+              <!--End of choose text-->
+            </div>
+            <!--End of choose inner-->
+          </div>
+          <!--End of choose wrapper-->
+        </div>
+      </div>
+      <!--End of row-->
+    </div>
+    <!--End of container-->
+    <a href="#section2" class="scrl-down scroll-down choose-scroll-down"><i class="fa fa-long-arrow-down"></i></a>
+  </div>
+  <!--End of choose us-->
+
+
     <!--==========================
     Call To Action Section
     ============================-->
@@ -169,46 +218,7 @@ We want Argentum to be a long-term stable investment. We will strive to provide 
 </div>
 
 
-<!-- Why Choose us
-======================================-->
-  <div id="section1" class="choose-us">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7">
-          <img src="img/Comp-2.gif" alt="" class="choose-img img-fluid">
-        </div>
-        <div class="col-lg-5 ">
-          <div class="choose-wrapper">
-            <div class="choose-inner">
-              <div class="choose-text">
-                <h3>Features style 2</h3>
-                <p><b>Features:</b> Argentum uses six cryptographic algorithms;
-Scrypt with AUXPOW support (Merged Mining)
-SHA256D with AUXPOW support (Merged Mining)
-Lyra2REv2 (GPU)
-Myriad-Groestl (GPU/ASIC)
-Argon2d (CPU)
-Yescrypt (CPU/GPU)
-Max block size 10mb
-3 ARG per block
- <p><b>Production:</b>Production: Blocks are discovered every 45 seconds and transactions are fully confirmed every 4.5 minutes. 64 Million total Argentums will be mined. Once this limit is reached, it is increased by 1.1% annually, the rate of human population growth.
- <p><b>Security:</b>Security: Mined blocks mature after 100 confirmations</br>
-                  
-                <a href="#" class="btn btn-light">core features</a>
-              </div>
-              <!--End of choose text-->
-            </div>
-            <!--End of choose inner-->
-          </div>
-          <!--End of choose wrapper-->
-        </div>
-      </div>
-      <!--End of row-->
-    </div>
-    <!--End of container-->
-    <a href="#section2" class="scrl-down scroll-down choose-scroll-down"><i class="fa fa-long-arrow-down"></i></a>
-  </div>
-  <!--End of choose us-->
+
 
 
     <section class="bg-dark text-white">
@@ -259,7 +269,7 @@ Max block size 10mb
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   </body>
 
 </html>
