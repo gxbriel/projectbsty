@@ -4288,3 +4288,17 @@ button.bg-dark:hover {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
+
+
+    [data-scroll] {
+      transition: opacity 1s;
+    }
+    [data-scroll="in"] {
+      opacity: 1;
+    }
+    [data-scroll="out"] {
+      opacity: 0;
+    }
+
+
+    

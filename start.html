@@ -12,6 +12,8 @@
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
         <link href="css/theme-yeller.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="shortcut icon" href="img/logo.png" />
 
     </head>
     <body data-smooth-scroll-offset="77">
@@ -44,6 +46,7 @@
                                         HOME</a> </li>
                                         <li> <a href="index.html#about" class="inner-link" target="_self">
                                         About&nbsp;</a> </li>
+                                        <li> <a href="atm" class="inner-link" target="_self">ATM</a> </li>
                                         <li> <a href="index.html#team" class="inner-link" target="_self">Team</a> </li>
                                         
                                     </ul>
@@ -65,13 +68,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-lg-7">
-                            <div class="switchable__text">
+                            <div data-aos="zoom-in-right" data-aos="zoom-in" class="switchable__text">
                                 <h2>We wanted more though,<br> something more than a just a payment system</h2>
                                 <p class="lead"> GlobalBoost-Y is rare, secure, and unique. We believe in scalable, decentralized, censorship-resistant, immutable blockchains. </p>
                                 
                             </div>
                         </div>
-                        <div class="col-md-10 col-lg-6"> <img alt="Image" class="block" src="img/17.png"> </div>
+                        <div data-aos="zoom-in-right" data-aos="zoom-in" class="col-md-10 col-lg-6"> <img alt="Image" class="block" src="img/17.png"> </div>
                     </div>
                 </div>
             </section>
@@ -152,6 +155,16 @@
         <script src="js/parallax.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+        <script>
+            ScrollOut({
+                once:true 
+            });
+          </script>
 
     </body>
 
